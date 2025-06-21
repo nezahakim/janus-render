@@ -1,4 +1,4 @@
-FROM meetecho/janus-gateway:latest
+FROM canyan/janus-gateway:latest
 
 EXPOSE 8088 8188
 
