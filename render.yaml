@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: janus-gateway
+    env: docker
+    dockerfilePath: ./Dockerfile
+    ports:
+      - 8088
+      - 8188
+    autoDeploy: true
+    healthCheckPath: /
